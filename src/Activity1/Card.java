@@ -35,6 +35,9 @@ public class Card {
      */
     public Card(String cardRank, String cardSuit, int cardPointValue) {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+	    this.rank = cardRank;
+	    this.suit = cardSuit;
+	    this.pointValue = cardPointValue;
     }
 
 
